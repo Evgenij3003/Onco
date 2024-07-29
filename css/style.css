@@ -14406,6 +14406,10 @@ body::-webkit-scrollbar-thumb {
   flex-direction: column;
   /* height: 100%; */
 }
+
+.page-product .product-card {
+    height: 100%;
+}
 .product-card__body {
 flex: 1 1 auto;
   position: relative;
