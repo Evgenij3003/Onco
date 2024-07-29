@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
 
 <head>
@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="format-detection" content="telephone=no">
-	<title>HomePage</title>
+	<title>Леовит Pharma. Product</title>
 	<link rel="manifest" href="/site.webmanifest">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
@@ -30,17 +30,17 @@
 	<meta name="msapplication-TileColor" content="#272727">
 	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
 	<meta name="theme-color" content="#C2AB81">
-	<link rel="stylesheet" href="css/style.css?_v=20240710134848">
-	<script defer src="files/js/dragscroll.js?_v=20240710134848"></script>
-	<script defer src="js/app.min.js?_v=20240710134848"></script>
+	<link rel="stylesheet" href="css/style.css?_v=20240726113557">
+	<script defer src="files/js/dragscroll.js?_v=20240726113557"></script>
+	<script defer src="js/app.min.js?_v=20240726113557"></script>
 	<script>
 		var baseUrl = "./js/";
 	</script>
 </head>
 
 <body>
-	<div class="wrapper">
-		<header class="header" data-fixed data-scroll="50">
+	<div class="wrapper visible">
+		<header class="header dark" data-fixed data-scroll="50">
 			<div class="header__container">
 				<div class="header__body">
 
@@ -291,36 +291,410 @@
 				</div>
 			</div>
 		</header>
-		<main class="page" style="background-image: url('img/background.jpg'); background-size: cover;">
-			<section class="index-page" style="margin: 280px 0 200px">
-				<div class="index-page__container">
-					<h1 class="index-page__title _title" style="margin-bottom: 20px; font-size: 40px; color: #fff;">Страницы:</h1>
-					<ol style="display: grid; row-gap: 16px; list-style-position: inside">
-						<li style="font-size: 20px; color: #fff">
-							<p style="display: inline-block;">Леовит Onco</p>
-							<ol style="display: grid; row-gap: 10px; list-style-position: inside; margin: 12px 0 0 20px;">
-								<li style="font-size: 18px; color: #fff">
-									<a href="leovit-onco.html">Главная</a>
+		<main class="page page-product pharma">
+			<div class="main">
+				<div class="main__bg">
+					<picture>
+						<source srcset="img/leovit-pharma/product-bg.webp" type="image/webp">
+						<img class="image-cover" width="1920" height="285" src="img/leovit-pharma/product-bg.jpg" alt="фоновое изображение">
+					</picture>
+				</div>
+				<div class="main__container">
+					<div class="main__body">
+						<nav class="main__breadcrumbs breadcrumbs" aria-label="breadcrumbs">
+							<ul class="breadcrumbs__list">
+								<li class="breadcrumbs__item">
+									<a href="home.html" class="breadcrumbs__link">Главная</a>
+									<span class="breadcrumbs__arrow" aria-hidden="true">/</span>
 								</li>
-							</ol>
-						</li>
-                        <li style="font-size: 20px; color: #fff">
-                            <p style="display: inline-block;">Леовит Pharma</p>
-                            <ol style="display: grid; row-gap: 10px; list-style-position: inside; margin: 12px 0 0 20px;">
-                                <li style="font-size: 18px; color: #fff">
-                                    <a href="pharma-product.html">Продукт</a>
-                                </li>
-                            </ol>
-                        </li>
-					</ol>
-					<!-- <h2 class="index-page__title _title" style="margin: 30px 0 20px; font-size: 30px">Модальные окна</h2>
-                    <ol style="display: grid; row-gap: 10px; list-style-position: inside">
-                        <li style="font-size: 20px;">
-                            <a href="popup-callback.html" data-popup="#callback-modal">Оставить заявку</a>
-                        </li>
-                    </ol> -->
+								<li class="breadcrumbs__item">
+									<a href="pharma.html" class="breadcrumbs__link">Leovit-PHARMA</a>
+									<span class="breadcrumbs__arrow" aria-hidden="true">/</span>
+								</li>
+								<li class="breadcrumbs__item">
+									<span class="breadcrumbs__current" aria-current="page">Коктейль белковый восстанавливающий</span>
+								</li>
+							</ul>
+						</nav>
+						<a class="main__link" href="pharma.html">Leovit-PHARMA</a>
+					</div>
+				</div>
+			</div>
+			<section class="product-main">
+				<div class="product-main__container">
+					<div class="product-main__body">
+						<div class="info-product__form">Форма выпуска: <span>Смесь жидкая</span></div>
+
+						<!-- Slider -->
+						<div class="product-main__slider">
+
+							<!-- Thumbs -->
+							<div class="product-main__slider-thumbs" id="thumbs">
+								<div class="product-main__thumbs thumbs-product">
+									<div class="thumbs-product__swiper-wrapper">
+										<div class="thumbs-product__slide">
+											<img class="image-cover" src="img/leovit-pharma/product-1/thumbs/thumb-1.jpg" alt="миниатюра 1">
+										</div>
+										<div class="thumbs-product__slide">
+											<img class="image-cover" src="img/leovit-pharma/product-1/thumbs/thumb-2.jpg" alt="миниатюра 2">
+										</div>
+										<div class="thumbs-product__slide">
+											<img class="image-cover" src="img/leovit-pharma/product-1/thumbs/thumb-3.jpg" alt="миниатюра 3">
+										</div>
+										<div class="thumbs-product__slide">
+											<img class="image-cover" src="img/leovit-pharma/product-1/thumbs/thumb-4.jpg" alt="миниатюра 4">
+										</div>
+										<div class="thumbs-product__slide">
+											<img class="image-cover" src="img/leovit-pharma/product-1/thumbs/thumb-1.jpg" alt="миниатюра 5">
+										</div>
+										<div class="thumbs-product__slide">
+											<img class="image-cover" src="img/leovit-pharma/product-1/thumbs/thumb-2.jpg" alt="миниатюра 6">
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Gallery -->
+							<div class="product-main__slider-gallery">
+								<div class="product-main__swiper slider-product">
+									<div class="slider-product__swiper-wrapper">
+										<div class="slider-product__slide">
+											<picture>
+												<source type="image/webp" srcset="img/leovit-pharma/product-1/image-1.webp">
+												<img class="image-cover" width="716" height="697" src="img/leovit-pharma/product-1/image-1.jpg" alt="слайд 1">
+											</picture>
+										</div>
+										<div class="slider-product__slide">
+											<picture>
+												<source type="image/webp" srcset="img/leovit-pharma/product-1/image-2.webp">
+												<img class="image-cover" width="716" height="697" src="img/leovit-pharma/product-1/image-2.jpg" alt="слайд 2">
+											</picture>
+										</div>
+										<div class="slider-product__slide">
+											<picture>
+												<source type="image/webp" srcset="img/leovit-pharma/product-1/image-3.webp">
+												<img class="image-cover" width="716" height="697" src="img/leovit-pharma/product-1/image-3.jpg" alt="слайд 3">
+											</picture>
+										</div>
+										<div class="slider-product__slide">
+											<picture>
+												<source type="image/webp" srcset="img/leovit-pharma/product-1/image-4.webp">
+												<img class="image-cover" width="716" height="697" src="img/leovit-pharma/product-1/image-4.jpg" alt="слайд 4">
+											</picture>
+										</div>
+										<div class="slider-product__slide">
+											<picture>
+												<source type="image/webp" srcset="img/leovit-pharma/product-1/image-1.webp">
+												<img class="image-cover" width="716" height="697" src="img/leovit-pharma/product-1/image-1.jpg" alt="слайд 5">
+											</picture>
+										</div>
+										<div class="slider-product__slide">
+											<picture>
+												<source type="image/webp" srcset="img/leovit-pharma/product-1/image-2.webp">
+												<img class="image-cover" width="716" height="697" src="img/leovit-pharma/product-1/image-2.jpg" alt="слайд 6">
+											</picture>
+										</div>
+									</div>
+								</div>
+
+								<!-- Bullets -->
+								<div data-bullets></div>
+							</div>
+						</div>
+
+						<!-- Info -->
+						<div class="product-main__info info-product">
+							<div class="info-product__content">
+								<div class="info-product__title title" data-da=".product-main__body,47.99875,0">
+									<h1>Коктейль белковый восстанавливающий</h1>
+								</div>
+								<div class="info-product__form">Форма выпуска: <span>Смесь жидкая</span></div>
+								<div class="info-product__categories">
+									<a href="#" class="info-product__link active">200 г.</a>
+									<a href="#" class="info-product__link">20 г.</a>
+								</div>
+								<div class="info-product__text">
+									<p>Коктейль белковый детоксикационный – это специализированный пищевой продукт диетического лечебного и диетического профилактического питания для восполнения белково-энергетической недостаточности, для снижения интоксикации и гипоксии организма, улучшения общефизического статуса в период лечения и реабилитации</p>
+								</div>
+								<div class="info-product__shop product-shop">
+									<div class="product-shop__label">Где купить</div>
+									<ul class="product-shop__list">
+										<li class="product-shop__item">
+											<a href="#" aria-label="Онлайн-магазин apteka">
+												<img src="img/icons/shops/apteka.png" aria-hidden="true" alt="логотип apteka">
+											</a>
+										</li>
+										<li class="product-shop__item">
+											<a href="#" aria-label="Онлайн-магазин wildberries">
+												<img src="img/icons/shops/wildberries.svg" aria-hidden="true" alt="логотип wildberries">
+											</a>
+										</li>
+										<li class="product-shop__item">
+											<a href="#" aria-label="Онлайн-магазин озон">
+												<img src="img/icons/shops/ozon.svg" aria-hidden="true" alt="логотип озон">
+											</a>
+										</li>
+										<li class="product-shop__item">
+											<a href="#" aria-label="Онлайн-магазин ригла">
+												<img src="img/icons/shops/rigla.svg" aria-hidden="true" alt="логотип ригла">
+											</a>
+										</li>
+										<li class="product-shop__item">
+											<a href="#" aria-label="Онлайн-магазин яндекс-маркет">
+												<img src="img/icons/shops/yandex-market.svg" aria-hidden="true" alt="логотип яндекс-маркет">
+											</a>
+										</li>
+										<li class="product-shop__item">
+											<a href="#" aria-label="смотреть все">
+												<img src="img/icons/arrow-circle.svg" aria-hidden="true" alt="иконка стрелки">
+												Cмотреть все
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Content -->
+					<div class="product-main__content content-product">
+						<h2>Показания к использованию:</h2>
+						<ul>
+							<li>состояния, связанные с потерей веса, сил и аппетита, затруднением и/или отказом при приеме пищи, нарушением всасывания питательных веществ;</li>
+							<li>белково-энергетическая недостаточность, истощение организма;</li>
+							<li>острые и хронические заболевания, любое заболевание с синдромом интоксикации;</li>
+							<li>подготовка к операции и послеоперационный период, осложнения послеоперационного периода;</li>
+							<li>неврология, в т. ч. инсульт, депрессия, анорексия, рассеянный склероз;</li>
+							<li>коматозное состояние, травмы, в т. ч. сочетанные, ожоги, ранения;</li>
+							<li>инфекции, вирусные заболевания, туберкулез;</li>
+							<li>муковисцидоз;</li>
+							<li>заболевания желудочно-кишечного тракта;</li>
+							<li>истощение организма и кахексия;</li>
+							<li>паллиативные состояния;</li>
+							<li>гериатрия.</li>
+						</ul>
+						<h2>Способ применения:</h2>
+						<ul>
+							<li>перорально, замена одного и более приемов пищи;</li>
+							<li>как дополнение к пероральному питанию (сипинг);</li>
+							<li>через назогастральный или назоинтестинальный зонд, через стому.</li>
+						</ul>
+						<h2>Состав:</h2>
+						<p>Вода, белки молочные и растительные (молоко сухое цельное, концентрат молочного белка, изолят соевого белка), сахароза, мальтодекстрин, заменитель сливок, пищевые волокна (инулин, гуаровая камедь), растительное масло, витамины С, В3, Е, В2, А, В6, кальций, натрий, цинк, марганец, селен, экстракты граната, зеленого чая, лимонника, корня лопуха, одуванчика, янтарная кислота, кофеин, таурин, лецитин соевый, каррагинан, ароматизаторы</p>
+					</div>
 				</div>
 			</section>
+			<section class="shop-product">
+				<div class="shop-product__container">
+					<div class="shop-product__body">
+						<div class="shop-product__title title">
+							<h2>Где купить</h2>
+						</div>
+						<div class="shop-product__items">
+							<ul class="shop-product__list">
+								<li class="shop-product__item">
+									<a href="#" aria-label="компания apteka">
+										<img src="img/icons/shops/apteka.png" aria-hidden="true" alt="логотип компании apteka">
+									</a>
+								</li>
+								<li class="shop-product__item">
+									<a href="#" aria-label="компания rigla">
+										<img src="img/icons/shops/rigla.svg" aria-hidden="true" alt="логотип компании rigla">
+									</a>
+								</li>
+								<li class="shop-product__item">
+									<a href="#" aria-label="компания zdravcity">
+										<img src="img/icons/shops/zdravcity.svg" aria-hidden="true" alt="логотип компании zdravcity">
+									</a>
+								</li>
+								<li class="shop-product__item">
+									<a href="#" aria-label="компания neofarm">
+										<img src="img/icons/shops/neofarm.svg" aria-hidden="true" alt="логотип компании neofarm">
+									</a>
+								</li>
+								<li class="shop-product__item">
+									<a href="#" aria-label="компания stoletov">
+										<img src="img/icons/shops/stoletov.png" aria-hidden="true" alt="логотип компании stoletov">
+									</a>
+								</li>
+								<li class="shop-product__item">
+									<a href="#" aria-label="компания uteka">
+										<img src="img/icons/shops/uteka.svg" aria-hidden="true" alt="логотип компании uteka">
+									</a>
+								</li>
+								<li class="shop-product__item">
+									<a href="#" aria-label="компания zdorov">
+										<img src="img/icons/shops/zdorov.svg" aria-hidden="true" alt="логотип компании zdorov">
+									</a>
+								</li>
+								<li class="shop-product__item">
+									<a href="#" aria-label="компания comfer">
+										<img src="img/icons/shops/comfer.svg" aria-hidden="true" alt="логотип компании comfer">
+									</a>
+								</li>
+								<li class="shop-product__item">
+									<a href="#" aria-label="компания wildberries">
+										<img src="img/icons/shops/wildberries.svg" aria-hidden="true" alt="логотип компании wildberries">
+									</a>
+								</li>
+								<li class="shop-product__item">
+									<a href="#" aria-label="компания яндекс-маркет">
+										<img src="img/icons/shops/yandex-market.svg" aria-hidden="true" alt="логотип компании яндекс-маркет">
+									</a>
+								</li>
+								<li class="shop-product__item">
+									<a href="#" aria-label="компания ozon">
+										<img src="img/icons/shops/ozon.svg" aria-hidden="true" alt="логотип компании ozon">
+									</a>
+								</li>
+							</ul>
+						</div>
+
+						<!-- Widget -->
+						<div class="shop-product__widget">
+							<img src="img/widget.jpg" alt="изображение виджета">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="other-products">
+				<div class="other-products__container">
+					<div class="other-products__body">
+						<div class="other-products__title title">
+							<h2>Другие товары</h2>
+						</div>
+						<div class="other-products__slider">
+							<div class="other-products__swiper slider-other-products">
+								<div class="slider-other-products__swiper-wrapper">
+									<div class="slider-other-products__slide">
+										<a href="pharma-product.html" class="product-card">
+											<div class="product-card__body">
+												<div class="product-card__weight">
+													<span>20 г</span>
+													<span>с 12 лет</span>
+												</div>
+												<div class="product-card__image">
+													<img src="img/leovit-pharma/products/product-1.png" alt="Коктейль белковый детоксикационный">
+												</div>
+												<div class="product-card__title">
+													<h4>Коктейль белковый детоксикационный</h4>
+												</div>
+												<span class="product-card__info">Форма выпуска: <span>Смесь сухая</span></span>
+												<div class="product-card__button button">Подробнее</div>
+											</div>
+										</a>
+									</div>
+									<div class="slider-other-products__slide">
+										<a href="pharma-product.html" class="product-card">
+											<div class="product-card__body">
+												<div class="product-card__weight">
+													<span>200 г</span>
+													<span>с 3 лет</span>
+												</div>
+												<div class="product-card__image">
+													<img src="img/leovit-pharma/products/product-2.png" alt="Коктейль белковый детоксикационный">
+												</div>
+												<div class="product-card__title">
+													<h4>Коктейль белковый детоксикационный</h4>
+												</div>
+												<span class="product-card__info">Форма выпуска: <span>Смесь жидкая</span></span>
+												<div class="product-card__button button">Подробнее</div>
+											</div>
+										</a>
+									</div>
+									<div class="slider-other-products__slide">
+										<a href="pharma-product.html" class="product-card">
+											<div class="product-card__body">
+												<div class="product-card__weight">
+													<span>20 г</span>
+													<span>с 12 лет</span>
+												</div>
+												<div class="product-card__image">
+													<img src="img/leovit-pharma/products/product-3.png" alt="Напиток для детоксикации">
+												</div>
+												<div class="product-card__title">
+													<h4>Напиток для детоксикации</h4>
+												</div>
+												<span class="product-card__info">Форма выпуска: <span>Смесь сухая</span></span>
+												<div class="product-card__button button">Подробнее</div>
+											</div>
+										</a>
+									</div>
+									<div class="slider-other-products__slide">
+										<a href="pharma-product.html" class="product-card">
+											<div class="product-card__body">
+												<div class="product-card__weight">
+													<span>200 г</span>
+													<span>с 3 лет</span>
+												</div>
+												<div class="product-card__image">
+													<img src="img/leovit-pharma/products/product-4.png" alt="Коктейль белковый восстанавливающий">
+												</div>
+												<div class="product-card__title">
+													<h4>Коктейль белковый восстанавливающий</h4>
+												</div>
+												<span class="product-card__info">Форма выпуска: <span>Смесь жидкая</span></span>
+												<div class="product-card__button button">Подробнее</div>
+											</div>
+										</a>
+									</div>
+									<div class="slider-other-products__slide">
+										<a href="pharma-product.html" class="product-card">
+											<div class="product-card__body">
+												<div class="product-card__weight">
+													<span>20 г</span>
+													<span>с 12 лет</span>
+												</div>
+												<div class="product-card__image">
+													<img src="img/leovit-pharma/products/product-5.png" alt="Коктейль белковый восстанавливающий">
+												</div>
+												<div class="product-card__title">
+													<h4>Коктейль белковый восстанавливающий</h4>
+												</div>
+												<span class="product-card__info">Форма выпуска: <span>Смесь сухая</span></span>
+												<div class="product-card__button button">Подробнее</div>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<!-- Arrows -->
+							<div data-arrows>
+								<button data-arrow-prev>
+									<img src="img/icons/arrow-right-3.svg" aria-hidden="true" alt="иконка стрелки">
+								</button>
+								<button data-arrow-next>
+									<img src="img/icons/arrow-right-3.svg" aria-hidden="true" alt="иконка стрелки">
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="product-info">
+				<div class="product-info__container">
+					<div class="product-info__body">
+						<h2>SEO текст</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</p>
+						<p>Lorem ipsum dolor sit amet:</p>
+						<ul>
+							<li>Proin sodales pulvinar sic tempor.</li>
+							<li>Proin sodales pulvinar sic tempor.</li>
+							<li>Proin sodales pulvinar sic tempor.</li>
+							<li>Proin sodales pulvinar sic tempor.</li>
+							<li>Proin sodales pulvinar sic tempor.</li>
+						</ul>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</p>
+						<p>Nam fermentum</p>
+						<p>Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</p>
+						<p>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</p>
+					</div>
+				</div>
+			</div>
+			<div class="button-shop">
+				<a href=".shop-product" data-goto>Где купить</a>
+			</div>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
@@ -516,7 +890,7 @@
 			</div>
 		</footer>
 	</div>
-	<script defer src="js/app.min.js?_v=20240710134848"></script>
+	<!-- <script defer src="js/app.min.js?_v=20240726113557"></script> -->
 </body>
 
 </html>
